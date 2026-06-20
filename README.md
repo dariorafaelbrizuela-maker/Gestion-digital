@@ -1,4 +1,4 @@
-[index.html.html](https://github.com/user-attachments/files/29161010/index.html.html)
+[index.html](https://github.com/user-attachments/files/29161010/index.html.html)
 # Gestion-digital
 <!DOCTYPE html>
 <html lang="es">
