@@ -295,7 +295,7 @@ canvas.sig{display:block;width:100%;height:120px;background:#fff;cursor:crosshai
 .login-div::before,.login-div::after{content:'';flex:1;height:1px;background:var(--border);}
 .rec-chips{display:flex;gap:10px;}
 .rec-chip{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;padding:11px 8px;border-radius:11px;border:1.5px solid var(--border);background:var(--panel);font-family:var(--fh);font-size:13px;font-weight:700;color:var(--text2);cursor:pointer;transition:border-color .15s,color .15s;}
-.rec-chip.e:hover{border-color:#0EA5E9;color:#0EA5E9;}
+.rec-chip.e:hover{border-color:#0ecce9;color:#0ec1e9;}
 .rec-chip.w:hover{border-color:#25D366;color:#25D366;}
 /* LAVAOJOS */
 .lo-step-bar{padding:10px 16px 0;display:flex;align-items:center;gap:4px;}
@@ -525,7 +525,7 @@ canvas.sig{display:block;width:100%;height:120px;background:#fff;cursor:crosshai
     <div class="lf-group">
       <label class="lf-label">Usuario</label>
       <div class="lf-wrap">
-        <input class="lf-input" type="text" id="li-user" placeholder="ej. Rafael.Brizuela" autocomplete="username" oninput="liValUser()" onkeydown="if(event.key==='Enter')document.getElementById('li-pass').focus()">
+        <input class="lf-input" type="text" id="li-user" placeholder="ej. Nombre.Apellido" autocomplete="username" oninput="liValUser()" onkeydown="if(event.key==='Enter')document.getElementById('li-pass').focus()">
         <span class="lf-icon" id="li-user-ico">👤</span>
       </div>
       <div class="lf-err" id="li-user-err"></div>
@@ -545,7 +545,7 @@ canvas.sig{display:block;width:100%;height:120px;background:#fff;cursor:crosshai
       <div class="rec-chip e" onclick="sendRec('email')"><span>📧</span> Email</div>
       <div class="rec-chip w" onclick="sendRec('whatsapp')"><span>💬</span> WhatsApp</div>
     </div>
-    <div style="text-align:center;margin-top:22px;font-size:10px;color:var(--text3)">SERVICE PRO DIGITAL S.A. · HSE v2.1<br>Acceso restringido a personal autorizado</div>
+    <div style="text-align:center;margin-top:22px;font-size:10px;color:var(--text3)">SERVICE PRO DIGITAL S.A. · HSE<br>Acceso restringido a personal autorizado</div>
   </div>
 </div>
 
@@ -561,7 +561,7 @@ canvas.sig{display:block;width:100%;height:120px;background:#fff;cursor:crosshai
     <div class="logo-q">Q</div>
     <div>
       <div class="logo-txt">SERVICE PRO <span style="color:var(--gold)">DIGITAL</span></div>
-      <span class="logo-sub">S.A. · v2.1</span>
+      <span class="logo-sub">S.A/span>
     </div>
   </div>
   <div style="display:flex;gap:6px">
@@ -579,16 +579,11 @@ canvas.sig{display:block;width:100%;height:120px;background:#fff;cursor:crosshai
     <div style="flex:1"><div style="font-family:var(--fh);font-size:14px;font-weight:800;color:var(--gold)">INSPECCIÓN VENCIDA</div><div style="font-size:11px;color:var(--text2);margin-top:1px">Plataforma D-7 · Hace 2 días</div></div>
     <div style="color:var(--gold);font-size:20px">›</div>
   </div>
-  <div class="kpi-row">
-    <div class="kpi g" onclick="toast('✅ 142 días sin LTI')"><div class="kpi-n">142</div><div class="kpi-l">Días LTI</div></div>
-    <div class="kpi a" onclick="toast('⚠️ 3 incidentes abiertos')"><div class="kpi-n">3</div><div class="kpi-l">Incidentes</div></div>
-    <div class="kpi r" onclick="toast('🔴 5 acciones pendientes')"><div class="kpi-n">5</div><div class="kpi-l">Acciones</div></div>
-  </div>
-  <div class="sh"><div class="sh-t">Informes</div><div class="sh-a" onclick="openRC()">+ Nuevo</div></div>
+    <div class="sh"><div class="sh-t">Reportes</div><div class="sh-a" onclick="openRC()">+ Nuevo</div></div>
   <div style="padding:0 16px">
     <div class="rc-hero" onclick="openRC()" style="cursor:pointer">
       <div style="font-size:36px">📋</div>
-      <div style="flex:1"><div class="rc-hero-title">Reporte de Campo</div><div class="rc-hero-sub">Verificación HSE · Fotos · Firmas · PDF A4</div></div>
+      <div style="flex:1"><div class="rc-hero-title">Reporte de Campo</div><div class="rc-hero-sub">Verificación HSE · Fotos · Firmas</div></div>
       <div class="rc-num">NUEVO</div>
     </div>
   </div>
